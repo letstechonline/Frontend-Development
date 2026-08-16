@@ -1,0 +1,183 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.main-nav {
+   background-color: #e0dfdf;
+}
+
+.nav-bar {
+   padding: 12px 4px;
+   max-width: 1024px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-icon-container {
+   border-radius: 50%;
+   border: 0.5px solid rgb(180, 179, 179);
+   width: 28px;
+   height: 28px;
+   padding: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav-icon:hover {
+   cursor: pointer;
+   fill: rgb(92, 90, 90);
+
+
+}
+
+.nav-right-icons {
+   display: flex;
+   gap: 12px;
+}
+
+.category {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 8px;
+   padding: 12px 4px;
+   max-width: 1024px;
+   margin: 0 auto;
+}
+
+.category-link {
+   border: 1px solid #e0dfdf;
+   background-color: #e0dfdf;
+   border-radius: 32px;
+   padding: 6px 18px;
+}
+
+.search-bar {
+   border: none;
+   outline: none;
+   background-color: #e0dfdf;
+   flex: 1;
+
+}
+
+.search-main {
+   display: flex;
+   gap: 4px;
+}
+
+.search-icon {
+   width: 24px;
+   height: 24px;
+
+}
+
+.product-card {
+   display: grid;
+   grid-template-columns: 0.8fr 1fr;
+   gap: 24px;
+   padding: 12px 4px;
+   max-width: 1024px;
+   margin: 0 auto;
+}
+
+.card-main {
+   height: 500px;
+   width: 100%;
+}
+
+.image-card {
+   border-radius: 12px;
+   position: relative;
+
+}
+
+.main-img {
+   width: 100%;
+   height: 500px;
+   border-radius: 12px;
+}
+
+.feature-images {
+   position: absolute;
+   bottom: 32px;
+   height: 100px;
+   left: 0;
+   right: 0;
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+
+
+}
+
+.detail-card {
+   width: 100%;
+}
+
+.feature-img-card {
+   border: 4px solid rgb(88, 86, 86);
+   border-radius: 12px;
+
+}
+
+.category-name {
+   font-size: 20px;
+   font-weight: 500;
+   color: rgb(119, 119, 119);
+
+}
+
+.product-title {
+   text-transform: capitalize;
+   color: rgb(51, 50, 50);
+   padding: 8px 0;
+}
+
+.deal-bar {
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+
+.rating,
+.hot-deal {
+   display: flex;
+   gap: 4px;
+   fill: #f19e39;
+   align-items: center;
+}
+
+.rating-count,
+.sold {
+   font-weight: 600;
+}
+
+
+
+.price-title {
+   display: flex;
+   gap: 0;
+   align-items: center;
+   font-size: 24px;
+   padding: 8px 0;
+}
+
+.net-price,
+.discount {
+   font-size: 16px;
+   color: red;
+}
+
+.net-price {
+   padding-left: 12px;
+   text-decoration: line-through;
+}
+
+.discount {
+   padding-left: 12px;
+}
